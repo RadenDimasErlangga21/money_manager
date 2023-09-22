@@ -202,8 +202,8 @@ class _HomePageState extends State<HomePage> {
                               ),
                               gradient: LinearGradient(
                                 colors: <Color>[
-                                  Static.PrimaryColor,
-                                  Colors.blueAccent,
+                                  Color.fromARGB(255, 7, 4, 155),
+                                  Color.fromARGB(195, 68, 255, 115),
                                 ],
                               ),
                             ),
@@ -226,7 +226,7 @@ class _HomePageState extends State<HomePage> {
                               style: TextStyle(
                                 fontSize: 24.0,
                                 fontWeight: FontWeight.w700,
-                                color: Static.PrimaryMaterialColor[800],
+                                color: Color.fromARGB(227, 0, 0, 0),
                               ),
                               maxLines: 1,
                             ),
@@ -277,7 +277,7 @@ class _HomePageState extends State<HomePage> {
                     decoration: const BoxDecoration(
                       gradient: LinearGradient(
                         colors: <Color>[
-                          Static.PrimaryColor,
+                          Color.fromARGB(255, 4, 155, 72),
                           Colors.blueAccent,
                         ],
                       ),

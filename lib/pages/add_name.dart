@@ -82,7 +82,7 @@ class _AddNameState extends State<AddName> {
               ),
               child: TextFormField(
                 decoration: InputDecoration(
-                  hintText: "Your Name",
+                  hintText: "Nama Anda",
                   border: InputBorder.none,
                 ),
                 style: TextStyle(
@@ -114,7 +114,7 @@ class _AddNameState extends State<AddName> {
                         ),
                         backgroundColor: Colors.white,
                         content: Text(
-                          "Please Enter a name",
+                          "Input nama anda",
                           style: TextStyle(
                             color: Colors.black,
                             fontSize: 18.0,

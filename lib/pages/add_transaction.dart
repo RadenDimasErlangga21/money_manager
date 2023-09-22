@@ -75,7 +75,7 @@ class _AddExpenseNoGradientState extends State<AddExpenseNoGradient> {
             children: [
               Container(
                 decoration: BoxDecoration(
-                  color: Static.PrimaryColor,
+                  color: Color.fromARGB(255, 4, 155, 12),
                   borderRadius: BorderRadius.circular(
                     16.0,
                   ),
@@ -152,7 +152,7 @@ class _AddExpenseNoGradientState extends State<AddExpenseNoGradient> {
             children: [
               Container(
                 decoration: BoxDecoration(
-                  color: Static.PrimaryColor,
+                  color: Color.fromARGB(255, 9, 155, 4),
                   borderRadius: BorderRadius.circular(
                     16.0,
                   ),
@@ -195,7 +195,7 @@ class _AddExpenseNoGradientState extends State<AddExpenseNoGradient> {
             children: [
               Container(
                 decoration: BoxDecoration(
-                  color: Static.PrimaryColor,
+                  color: Color.fromARGB(255, 4, 155, 24),
                   borderRadius: BorderRadius.circular(
                     16.0,
                   ),
@@ -221,7 +221,7 @@ class _AddExpenseNoGradientState extends State<AddExpenseNoGradient> {
                     color: type == "Pemasukan" ? Colors.white : Colors.black,
                   ),
                 ),
-                selectedColor: Static.PrimaryColor,
+                selectedColor: Color.fromARGB(255, 4, 155, 29),
                 onSelected: (val) {
                   if (val) {
                     setState(() {
@@ -284,7 +284,7 @@ class _AddExpenseNoGradientState extends State<AddExpenseNoGradient> {
                 children: [
                   Container(
                     decoration: BoxDecoration(
-                      color: Static.PrimaryColor,
+                      color: Color.fromARGB(255, 4, 155, 29),
                       borderRadius: BorderRadius.circular(
                         16.0,
                       ),

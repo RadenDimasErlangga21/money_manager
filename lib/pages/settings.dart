@@ -49,14 +49,14 @@ class _SettingsState extends State<Settings> {
               ),
             ),
             title: Text(
-              "Clean Data",
+              "Hapus Data",
               style: TextStyle(
                 fontSize: 20.0,
                 fontWeight: FontWeight.w800,
               ),
             ),
             subtitle: Text(
-              "This is irreversible",
+              "Ini akan menghapus semua data transaksi",
             ),
             trailing: Icon(
               Icons.delete_forever,
@@ -77,7 +77,7 @@ class _SettingsState extends State<Settings> {
                 builder: (context) => AlertDialog(
                   backgroundColor: Colors.grey[300],
                   title: Text(
-                    "Enter new name",
+                    "Input nama baru",
                   ),
                   content: Container(
                     decoration: BoxDecoration(
@@ -92,7 +92,7 @@ class _SettingsState extends State<Settings> {
                     ),
                     child: TextFormField(
                       decoration: InputDecoration(
-                        hintText: "Your Name",
+                        hintText: "Nama Anda",
                         border: InputBorder.none,
                       ),
                       style: TextStyle(
@@ -133,7 +133,7 @@ class _SettingsState extends State<Settings> {
               ),
             ),
             title: Text(
-              "Change Name",
+              "Ganti Nama",
               style: TextStyle(
                 fontSize: 20.0,
                 fontWeight: FontWeight.w800,
@@ -175,6 +175,7 @@ class _SettingsState extends State<Settings> {
                       8.0,
                     ),
                   ),
+
                   title: Text(
                     "Local Bio Auth",
                     style: TextStyle(
@@ -189,6 +190,7 @@ class _SettingsState extends State<Settings> {
               } else {
                 return Container();
               }
+              
             },
           ),
         ],
